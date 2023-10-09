@@ -21,3 +21,17 @@ let isLoggedIn = true;
 
 console.log(typeof undefined) // undefined
 console.log(typeof null); // objects
+
+
+// datatypes summary 
+
+const heroes = ["ramesh", "Aakriti","Sujan"]
+const myObj = {
+    name: "Ramesh Tamang",
+    degination:"Software Developer",
+}
+
+let myFunction = function(){
+    console.log("ramesh")
+}
+console.log(typeof myFunction);
