@@ -53,3 +53,33 @@ const users = [
 // console.log(Object.keys(tinderUser));
 // console.log(Object.values(tinderUser))
 // console.log(tinderUser.hasOwnProperty('username'))
+
+
+// De-structuring
+
+const course = {
+    coursename: 'Javascript from the stratch',
+    price: 1000,
+    courseInstructor: "Hitesh"
+}
+
+// console.log(course.courseInstructor);
+
+// const {courseInstructor} = course
+// console.log(courseInstructor);
+
+// const {courseInstructor: ins} = course
+// console.log(ins);
+
+
+// {
+//     'name': "Hitesh",
+//     'coursename': "Javascript",
+//     'price': 1000
+// }
+
+[
+    {},{},{}
+]
+
+
