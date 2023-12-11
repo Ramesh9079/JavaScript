@@ -33,3 +33,16 @@ console.log(loginUserMessage())
 
 // If you don not pass the argument in the function then it will give undefined. 
 
+//  undefined and empty argument will return false values.
+
+
+function holiday (day) {
+    if (!day){
+        console.log("It is your working day");
+        return
+    }
+    return `${day} is your work off day`
+}
+
+console.log(holiday('Sunday'))
+console.log(holiday(''))
