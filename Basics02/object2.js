@@ -19,6 +19,7 @@ const regularUser = {
     }
 }
 
+// console.log(regularUser['fullname']['usersName']['lastname'])
 // console.log(regularUser.fullname.usersName.firstname);
 
 const obj1 = { 1:'a',2:'b'
@@ -47,8 +48,8 @@ const users = [
 
 // console.log(users[0].email);
 
-console.log(tinderUser)
+// console.log(tinderUser)
 
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser))
-console.log(tinderUser.hasOwnProperty('username'))
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser))
+// console.log(tinderUser.hasOwnProperty('username'))
