@@ -29,7 +29,7 @@ function loginUserMessage(username){
 }
 // console.log(loginUserMessage('Ramesh'))
 
-console.log(loginUserMessage())
+// console.log(loginUserMessage())
 
 // If you don not pass the argument in the function then it will give undefined. 
 
@@ -44,5 +44,43 @@ function holiday (day) {
     return `${day} is your work off day`
 }
 
-console.log(holiday('Sunday'))
-console.log(holiday(''))
+// console.log(holiday('Sunday'))
+// console.log(holiday(''))
+
+
+// Rest operator in the function
+function  calculateCartPrice (...num1){
+return num1
+}
+// console.log(calculateCartPrice(200,300,500,1000,2400));
+
+
+function calculateNumbers (val1,val2,...num1){
+    return num1
+}
+
+// console.log(calculateNumbers(100,200,300,400,500,600))
+
+
+// const object = {
+//     username:"Ramesh",
+//     price: 499
+// }
+
+// function objectName (values){
+//     console.log(`Username is ${values.username} and the price is ${values.price}`)
+// }
+// //  objectName(object)
+// objectName({
+//     username:"Anish",
+//     price:599
+// })
+
+
+
+const myArray =[100,1000,10000]
+
+function arrayCalculator (array) {
+    console.log(array)
+}
+arrayCalculator(myArray)
